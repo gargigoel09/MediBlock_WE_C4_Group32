@@ -8,7 +8,7 @@ The aim of this framework is firstly to implement blockchain technology for EHR 
 
 ## Application Demo Video  
 
-[![Demo](https://youtu.be/jnYZb7QiXzc)
+[![Demo](https://youtu.be/jnYZb7QiXzc)]
 
 ## Installation
 
