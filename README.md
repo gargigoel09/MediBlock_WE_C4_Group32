@@ -7,8 +7,7 @@ The aim of this framework is firstly to implement blockchain technology for EHR 
 <!-- TABLE OF CONTENTS -->
 
 ## Application Demo Video  
-
-
+[![Demo](https://github.com/gargigoel09/WE_Project/blob/08ba601a5dc72a770130c389108537b6f1695eea/final_work/images/demo_video.png)](https://youtu.be/jnYZb7QiXzc)
 
 ## Installation
 
