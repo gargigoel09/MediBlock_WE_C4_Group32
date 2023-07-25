@@ -136,8 +136,8 @@
                         </table>
 
                         <div class="text-center">
-                            <h5>Your records are stored here: http://localhost:8080/ipfs/<span id="recordsHash"></span>
-                            </h5>
+                            <!-- <h5>Your records are stored here: http://localhost:8080/ipfs/<span id="recordsHash"></span>
+                            </h5> -->
                             <button style="background-color: rgb(59, 13, 144);" type="submit"
                                 class="btn btn-info btn-lg" onclick="showRecords(this)">View medical
                                 records</button>
@@ -304,7 +304,10 @@
 
                 if (!error) {
 
-                    DoctorList = result;
+                    DoctorList = new Set(result);
+                    // var uniqueDoctorSet = new Set(DoctorList);
+                    DoctorList = Array.from(DoctorList);
+                    console.log(DoctorList);
 
                     for (var i = 0; i < DoctorList.length; i++) {
                         contractInstance.get_doctor.call(DoctorList[i], { gas: 1000000 }, function (error, result) {
