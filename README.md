@@ -90,7 +90,7 @@ The projects requires NodeJS and npm to work. Instructions to install all other 
   - Open Ganache and click on settings in the top right corner.
   - Under **Server** tab:
     - Set Hostname to 127.0.0.1 -lo
-    - Set Port Number to 8545
+    - Set Port Number to 7545
     - Enable Automine
   - Under **Accounts & Keys** tab:
     - Enable Autogenerate HD Mnemonic
@@ -148,7 +148,7 @@ The projects requires NodeJS and npm to work. Instructions to install all other 
 ### Running the dApp
 
 #### 1. Connecting Metamask to our local blockchain
-  - Connect metamask to localhost:8485
+  - Connect metamask to localhost:7545
   - Click on import account
     
 ![WhatsApp Image 2023-07-25 at 18 46 35](https://github.com/gargigoel09/WE_Project/assets/88873588/5a84bd86-1988-4f98-8664-8ece395757e3)
