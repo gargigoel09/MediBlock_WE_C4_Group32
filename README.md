@@ -133,7 +133,8 @@ The projects requires NodeJS and npm to work. Instructions to install all other 
 ### Smart Contract
 
 1. Install Truffle using `npm install truffle -g`
-2. Compile Contracts using `truffle compile`
+2. Initialise truffle using `truffle init`
+3. Compile Contracts using `truffle compile` (Do not overwrite the already written contracts)
 
 #### 1. Starting your local development blockchain
   - Open Ganache.
